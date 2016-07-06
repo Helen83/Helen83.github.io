@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100%;
+	background: url(../img/bg.jpg);
+	color: white;
+	font-family: "helveticaneue", Arial, sans-serif;
+}
+/*HEADER*/
+header{
+	height: 36px;
+    min-width: 1300px;
+  	background: #085394;
+  	/*overflow: hidden;*/
+  	position: relative;
+}
+.menu ul li {
+	float: left;
+    text-align: right;
+  	background: url(../img/bluline.png) no-repeat right;
+  	padding: 0 18px;
+}
+
+menu {
+	width: 70%
+}
+.menu a{
+	line-height: 36px;
+  	text-decoration: none;
+  	color: #60b5ed;
+  	font-size: 14px;			  
+
+}
+.second-li{
+	background: #4eabda;
+}
+.second-li a{}
