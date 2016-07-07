@@ -13,27 +13,73 @@ header{
 	height: 36px;
     min-width: 1300px;
   	background: #085394;
-  	/*overflow: hidden;*/
+  	overflow: hidden;
   	position: relative;
 }
 .menu ul li {
 	float: left;
     text-align: right;
-  	background: url(../img/bluline.png) no-repeat right;
-  	padding: 0 18px;
+  	padding: 0 20px;
+  	list-style: none;
 }
 
-menu {
-	width: 70%
-}
-.menu a{
+
+
+.menu  li a{
 	line-height: 36px;
   	text-decoration: none;
   	color: #60b5ed;
   	font-size: 14px;			  
 
 }
-.second-li{
-	background: #4eabda;
+.menu li:nth-child(1){
+	padding: 0 25px 0 450px;
 }
-.second-li a{}
+
+.menu ul li:nth-child(2){
+	background: #4eabda;
+  	
+}
+.menu ul li:nth-child(2) a{
+	color: #fff;
+}
+.menu ul li:nth-child(5){
+	background: url(../img/bluline.png) no-repeat right;
+}
+
+.menu ul li:nth-child(6){
+	background: none ;
+	padding: 0 10px 0 15px;
+	
+}
+.menu ul li:nth-child(7){
+	background: none ;
+	text-align: left;
+	padding: 0 10px 0 0;
+}
+.menu ul li:nth-child(7) a {
+	color: white;
+} 
+
+ ul li:nth-child(8){
+	background: none;
+	background: url(../img/user-links-bg.jpg) repeat-x;
+	padding: 0 10px;
+}
+ul li:nth-child(8) a{
+	color: white;
+	text-decoration: underline;}
+menu {
+	height: 36px;
+	float: right;
+}
+
+.content
+.top
+.wraper
+.bottones
+.O
+.formes
+.checkbox
+.submit
+							
