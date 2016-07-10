@@ -22,7 +22,7 @@ body{
 .header{
 	margin: 0 auto;
 	position: relative;
-	height: 400px;
+	height: 200px;
 }
 .logo{
 	float: left;
@@ -32,40 +32,35 @@ body{
 
 .contacts{
 	float: right;
-	width: 40%;
-}
-.contacts img{
-	float: right;
-}
-.contries{
-	float: right;
-	margin-top:30px; 
+	width: 30%;
+	margin: 10px 5px;
 }
 
-.contries-menu li{
-float: left;
-list-style: none;
-width: 60px;
-	height: 25px;
-	margin: 0 1px;
-	text-align: center;
+.acontries{
+	float: right;
+	margin-top:0px; 
+	    width: 600px;
+    height: 60px;
+
 }
+
+
 
 /*.acontries{
 	clear: both;}*/
 
 .acontries li{
 	float: left;
-	list-style: none;
 	font-size: 10px;
 	width: 60px;
-	height: 60px;
+	height: 25px;
 	margin: 0 1px;
 	text-align: center;
-	line-height: 60px;
+	line-height: 15px;
 	font-size: 10px;
 	font-family: "Tahoma";
 	color: rgb(18, 138, 167);
+	list-style: none;
 }
 .photo{
 	border: 1px solid #128aa7;
@@ -81,7 +76,7 @@ width: 60px;
 	 width: 100%;
 
 }
-.menu{
+.content.menu{
 	height: 28px;
 	background: #333333;
 	border-bottom: 1px solid #000;
