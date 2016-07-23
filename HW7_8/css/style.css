@@ -1,0 +1,172 @@
+html {
+	height: 100%;
+	}
+body{
+	background: url(../img/background.jpg) no-repeat;
+	background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    top: 0;
+    right: 0;
+    z-index: -100;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	font-family: sans-serif;
+	/*font-family: "Open sans" , Arial; 
+	font-family: "League Gothic Regular";
+	font-size: 14px;
+	text-transform: capitalize;*/
+}
+@font-face {
+    font-family: 'League Gothic Regular';
+    src: url('../fonts/leaguegothic-regular-webfont.eot');
+    src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('../fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.clearfix:after	{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/*---------------------------------HEADER------------------------------*/
+header{position: 
+	    width: 100%;
+    height: 568px;
+    margin-top: 148px;
+
+	/*max-width: 960px;
+	min-width: 430px;*/	
+	font-family: "League Gothic Regular";
+	margin: 0 auto;
+  	margin-top: 30px;
+  	position: relative;
+  	    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.wrapper{
+	width: 100%;
+	height: 980px;
+	margin: 0 auto;
+}
+.telefon{
+	background: url("../img/telefon.png") no-repeat;
+    height: 378px;
+    width: 303px;
+    position: absolute;
+    top: 170px;
+    left: 70%;
+    right: 0;
+    margin: 0 auto;
+    z-index: 100;
+}
+.container-top{
+	width: 960px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	    
+}
+.header-logo {
+	    align-self: center;
+	  padding: 0 0 0 4px;}
+ .logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 100;
+    color: #fff;
+    font-family: "league Gothic Regular";
+    text-shadow: 2px 3px 2px rgba(0,0,0,0.3);
+    white-space: nowrap;
+}
+.header__nav{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20%;
+    width: 60%;
+    flex-wrap: nowrap;
+}
+
+.menu{   
+	width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;}
+.menu__item{
+	border-bottom: 2px solid rgba(0, 0, 0, 0);
+    padding: 0.5%;
+    padding-top: 0;
+    padding-right: 53px;
+}				
+.menu__link{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 1px 1.732px 2px rgb( 0, 0, 0 );
+    white-space: nowrap;
+}
+.slider-content{
+	    width: 50%;
+    margin: 30px;
+}
+.fluid-line{
+	background: rgba(0, 0, 0, 0.5);
+	height: 400px;
+	padding-top: 30px;
+}
+.topic{
+	font-size: 4rem;
+    text-transform: capitalize;
+    color: rgb(254, 254, 254);
+    text-shadow: rgb(0, 0, 0) 0px 2px 2px;
+}
+.slogan{
+	    font-size: 2.3rem;
+    color: rgb(237, 191, 255);
+    text-shadow: rgb(0, 0, 0) 0px 2px 2px;
+    text-transform: uppercase;
+}
+.topic{
+
+}
+
+.header-theme{
+}
+.header-navigation{
+	left: 83%;
+    right: 0;
+    position: absolute;
+    bottom: 18%;}
+/*-----------------------------MAIN-------------------------------------*/
+.purple-line{
+	 background: linear-gradient(to bottom, rgba(116,80,131,1) 0%, rgba(51,37,58,1) 100%);
+}
+.blurb
+.grey-line
+.testimonial
+.main-navigation
+.brendlogo
+/*-----------------------------FOOTER--------------------------------------*/
+.footer
+.footer-nav
+.menu
+.menu__item
+.footer-copyright	
+
