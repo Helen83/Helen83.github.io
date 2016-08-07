@@ -28,13 +28,6 @@ body{
     font-style: normal;
 }
 
-.clearfix:after	{
-	content: ".";
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
-}
 /*---------------------------------HEADER------------------------------*/
 header{position: 
 	    width: 100%;
@@ -85,18 +78,21 @@ header{position:
  .logo{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 48px;
     font-weight: 100;
     color: #fff;
     font-family: "league Gothic Regular";
     text-shadow: 2px 3px 2px rgba(0,0,0,0.3);
     white-space: nowrap;
 }
+.logo-er{
+   color: #745083;
+}
 .header__nav{
 	display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-right: 20%;
+    padding-right: 9%;
     width: 60%;
     flex-wrap: nowrap;
 }
@@ -127,7 +123,7 @@ header{position:
     margin: 30px;
 }
 .fluid-line{
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.3);
 	height: 400px;
 	padding-top: 30px;
 }
@@ -143,11 +139,14 @@ header{position:
     text-shadow: rgb(0, 0, 0) 0px 2px 2px;
     text-transform: uppercase;
 }
-.topic{
-
-}
-
-.header-theme{
+.header-theme{    
+	text-shadow: 0px 2px 2px rgb( 0, 0, 0 );
+    padding-top: 1%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
 }
 .header-navigation{
 	left: 83%;
@@ -157,12 +156,161 @@ header{position:
 /*-----------------------------MAIN-------------------------------------*/
 .purple-line{
 	 background: linear-gradient(to bottom, rgba(116,80,131,1) 0%, rgba(51,37,58,1) 100%);
+	min-width: 932px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 15px;
 }
-.blurb
-.grey-line
-.testimonial
-.main-navigation
-.brendlogo
+.blurb{   
+	 width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about__box1{
+  margin-top: 6px;
+  width: 30%;
+  height: 339px;
+  background: url(../img/sprites.png) no-repeat;
+}
+.about__box2{
+  margin-top: 6px;
+  width: 40%;
+  height: 339px;
+  background: url(../img/sprites.png) no-repeat;
+  background-position: -37px 0px;
+}
+.about__box3 {
+  margin-top: 6px;
+  width: 40%;
+  height: 339px;
+  background: url(../img/sprites.png) no-repeat;
+  background-position: -74px 0px;}
+.about__content{
+	padding-left: 30px;
+
+}
+.about__headline{
+	font-size: 30px;
+    color: rgb( 255, 255, 255);
+    text-shadow: 0.5px 1px 0px rgb( 15, 21, 24);
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    font-family: "League Gothic Regular";
+}
+.about__p{
+    color: rgb(254, 254, 254);
+    text-shadow: 0.5px 0.866px 0px rgb( 15, 21, 24);
+    margin: 14px 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px ;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+.about__link{
+	font-family: "League Gothic Regular";
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	padding-left: 70%;
+	text-transform: uppercase;
+}
+.grey-line{
+	min-height: 600px;
+	background: #f9f9f9;
+    padding:15px; 
+}
+.box{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.conteiner{
+	display: inline-block;
+	vertical-align: top;
+     min-height: 275px;
+}
+.testimonial{
+	width: 432px;
+  background: #fff;
+  padding-left: 5px;
+    padding-top: 5%;
+    position: relative;
+}
+.testimonial:after{
+    content: '';
+    display: block;
+    position: absolute;
+    right: 40px;
+    bottom: -15px;
+    width: 30px;
+    height: 30px;
+    box-shadow: 2px 2px 2px -3px #000;
+    background-color: white;
+    transform: rotate(68deg) skew(30deg);
+
+}
+.testimonial-img{
+	background-image: url(../img/avatar.png);
+    width: 53px;
+    height: 50px;
+    margin-left: -25px;
+    position: absolute;
+}
+.testimonials__headline{ 
+   margin: 0 0 0 13%;
+    font-size: 30px;
+    font-family: 'League Gothic Regular', Arial, sans-serif;
+    text-transform: uppercase;}
+.pink{
+	    color: #edbfff;
+}
+.testimonials__paragraph{
+	margin: 7px 10% 0 13%;
+}
+.main-navigation{
+	margin: 5% auto;
+	text-align: center; 
+}
+.fromblog{
+	min-width: 40%;
+    padding: 0 2% 0 4%;}
+.fromblog__headline{
+	font-family: 'League Gothic Regular', Arial, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb( 69, 69, 69 );
+    text-shadow: 0.5px 0.866px 0px rgb( 255, 255, 255 );
+}
+.fromblog__post{
+  height: 45px;
+  padding-top: 2px;
+  margin-bottom: 19px;
+}
+.fromblog__post{
+
+  background: url(../img/fromblog-post-bg1.png) no-repeat left;	
+}
+
+.flomblog__topic
+.fromblog__postedby 
+.flomblog__link
+
+.brendlogo{
+	border-top: 1px solid #000;
+    border-bottom: 1px solid #e6e6e6;
+    text-align: center;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 /*-----------------------------FOOTER--------------------------------------*/
 .footer
 .footer-nav
