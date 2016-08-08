@@ -229,6 +229,8 @@ header{position:
 	display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 97px;
+    margin-bottom: 70px;
 }
 .conteiner{
 	display: inline-block;
@@ -272,6 +274,11 @@ header{position:
 }
 .testimonials__paragraph{
 	margin: 7px 10% 0 13%;
+	font-size: 16px;
+    color: #454545;
+    font-family: "Open Sans";
+    font-weight: 100;
+    line-height: 24px;
 }
 .main-navigation{
 	margin: 5% auto;
@@ -283,7 +290,6 @@ header{position:
 .fromblog__headline{
 	font-family: 'League Gothic Regular', Arial, sans-serif;
     text-transform: uppercase;
-    text-decoration: none;
     font-size: 2rem;
     color: rgb( 69, 69, 69 );
     text-shadow: 0.5px 0.866px 0px rgb( 255, 255, 255 );
@@ -292,29 +298,160 @@ header{position:
   height: 45px;
   padding-top: 2px;
   margin-bottom: 19px;
+   background: url(../img/fromblog-post-bg1.png) no-repeat left;	   
 }
-.fromblog__post{
-
-  background: url(../img/fromblog-post-bg1.png) no-repeat left;	
+.fromblog__topic{
+	font-size: 16px;
+    color: #454545;
+    font-family: "Open Sans";
+    font-weight: 900;
+}
+.fromblog__postedby{
+	    font-size: 16px;
+    color: #454545;
+    font-family: "Open Sans";
+    font-weight: 100;
 }
 
-.flomblog__topic
-.fromblog__postedby 
-.flomblog__link
+.fromblog__link{
+	    font-size: 18px;
+    color: #000;
+    font-weight: 100;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: right;
+    position: absolute;
+    bottom: -26px;
+    right: 11px;
+} 
 
 .brendlogo{
-	border-top: 1px solid #000;
+	width: 100%;
+	display: inline-block;
+    vertical-align: middle;
+	border-top: 1px solid #e6e6e6;
     border-bottom: 1px solid #e6e6e6;
     text-align: center;
-    margin: 20px;
-    display: inline-block;
-    vertical-align: middle;
+    margin: 20px 20px 0 0;
+    padding-left: 40px;
+    }
+
+.copyright{
+	    width: 100%;
+    background-color: #ececec;
+    box-sizing: border-box;
+    display: block;
+
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.copyright__box{
+	    width: 91%;
+    margin: 34px 0 0px 4%;
+    padding: 
+}
+.copyright__box__logo{
+
+    font-size: 47px;
+    color: #454545;
+    text-shadow: none;
+    line-height: 47px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "League Gothic Regular";
+}
+.logo-color{
+	color: #b9b9b9;
+}
+.copyright__box__text{
+	font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 100;
+    color: #787878;
+    font-style: italic;
+    margin: 3px 0 0 0;
+}
+.copyright__box__content {
+	 font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 100;
+    color: #787878;
+    margin: 17px 0 0 0;
+}
+.copyright__box__head{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-decoration: none;
+    color: #454545;
+    margin: 0 0 0 4px;
+    font-family:  "League Gothic Regular"
+}
+.copyright__box__text-2{
+	font-family:"Open Sans";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 100;
+    color: #787878;
+    margin: 2px 0 0 2px;
+}
+.copyright__box__text-3{
+	font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 100;
+    color: #787878;
+    margin: 7px 0 16px 5px;
 }
 
 /*-----------------------------FOOTER--------------------------------------*/
-.footer
-.footer-nav
-.menu
-.menu__item
-.footer-copyright	
+.footer{
+    width: 960px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer__nav{
+    width: 66%;
+    padding: 0 0 0 2%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.menu{
+	
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 0;
+        align-self: flex-start;
+    width: 71%;
+}
+.menu__item{
+	    display: block;
+}
+.menu__item a{
+	    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;
+    font-family: "League Gothic Regular";
+    text-shadow: 1px 1.732px 2px rgb( 0, 0, 0 );
+    white-space: nowrap;
+}
+.footer-copyright	{
+	    width: 16%;
+    margin: 0-17px 0 0;
+    align-self: center;
+    font-size: 11px;
+    color: #fff;
+    text-shadow: 2px 3px 2px rgba(0,0,0,0.3);
+    font-weight: 300;
+    font-family: "Open Sans";
+}
 
